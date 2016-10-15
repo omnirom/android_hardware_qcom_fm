@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d8098520_ed62add6",
+        "filename": "libfm_jni/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000515
+      },
+      "writtenOn": "2016-10-15T15:25:16Z",
+      "side": 1,
+      "message": "Could we use BOARD_HAVE_QCOM_FM here too?",
+      "range": {
+        "startLine": 1,
+        "startChar": 38,
+        "endLine": 1,
+        "endChar": 39
+      },
+      "revId": "0f706254951ec9922d011a208a7bd1bf9756dbb7",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
