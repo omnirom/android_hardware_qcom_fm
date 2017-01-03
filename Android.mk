@@ -7,6 +7,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 
 #ifneq ($(TARGET_USES_AOSP),true)
+ifneq ($(BOARD_USES_FM_HAL_LIBFMJNI),true)
 
 LOCAL_SRC_FILES := $(call all-java-files-under, qcom/fmradio)
 LOCAL_JNI_SHARED_LIBRARIES := libqcomfm_jni
@@ -35,6 +36,7 @@ include $(LOCAL_PATH)/fmapp2/Android.mk
 #LOCAL_PATH := $(LOCAL_DIR_PATH)
 #include $(LOCAL_PATH)/FMRecord/Android.mk
 
+endif # Not (BOARD_USES_FM_HAL_LIBFMJNI)
 #endif # Not (TARGET_USES_AOSP)
 
 LOCAL_PATH := $(LOCAL_DIR_PATH)
