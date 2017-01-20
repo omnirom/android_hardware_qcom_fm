@@ -23,7 +23,6 @@
     <string name="menu_speaker_off">Disable Speaker</string>
     <string name="menu_scan_start">Scan</string>
     <string name="menu_scan_stop">Stop Searching</string>
-    <string name="menu_stats">FM RF Stats</string>
     <string name="button_text_stop">Stop</string>
     <string name="msg_seeking">Searching FM Station</string>
     <string name="msg_scanning">Scanning for all FM Stations</string>
@@ -31,12 +30,9 @@
     <string name="msg_search_title">FM - <xliff:g id="frequency_string">%1$s</xliff:g></string>
     <string name="msg_searching">Searching for Strong Stations to create a Preset List </string>
     <string name="msg_searching_title">Auto-Select Presets</string>
-    <string name="msg_weak_searching">Searching for frequencies to transmit</string>
 
     <string name="msg_noantenna">Please plug in a Headset to use FM
         Radio </string>
-    <string name="msg_headsetpluggedin">Disconnect all Headsets for using FM Tx</string>
-    <string name="msg_callactive">FM Tx is not supported when there is active voice call</string>
     <string name="dialog_sleep_title">Select Auto-Off Sleep Time</string>
         <string name="preset_select_name">Select "<xliff:g id="preset_name">%1$s</xliff:g>"</string>
         <string name="presetlist_select_name">Select "<xliff:g id="presetlist_name">%1$s</xliff:g>"</string>
@@ -48,7 +44,6 @@
         <string name="presetlist_delete_name">Delete "<xliff:g id="presetlist_name">%1$s</xliff:g>" and its Stations?</string>
         <string name="presetlist_autoselect_title">Confirm Auto-Select</string>
         <string name="presetlist_autoselect_name">Auto-Select will delete all the Presets in the list  "<xliff:g id="presetlist_name">%1$s</xliff:g>", Continue?</string>
-        <string name="fmtx_autoselect_name">Auto-Select will delete all the Presets, Continue?</string>
 
     <string name="enter_frequency">Tune to Station</string>
     <string name="enter_new_frequency_title">Enter Frequency </string>
@@ -85,11 +80,9 @@
         </string>
 
     <string name="stat_notif_frequency">FM Radio Station "<xliff:g id="frequency">%1$s</xliff:g>" MHz</string>
-    <string name="stat_notif_tx_frequency">FM Transmitting at: "<xliff:g id="frequency">%1$s</xliff:g>"</string>
 
 
     <string name="sel_band_menu">Select Regional Band</string>
-    <string name="test_menu">Select Test</string>
 
     <string name="settings_menu">Settings</string>
     <string name="regional_band">Regional Band</string>
@@ -198,7 +191,6 @@
     <string name="default_blank"> </string>
     <string name="add_station">+</string>
     <string name="stop_scanning">Stop Scanning</string>
-    <string name="transmit_msg_string">Transmitting at:</string>
     <!-- the name under which recordings will be visible in the media database is formatted like this -->
     <string name="audio_db_title_format"><xliff:g id="format">yyyy-MM-dd HH:mm:ss</xliff:g></string>
     <!-- all recordings will show up in the media database with this 'artist' name -->
@@ -207,23 +199,8 @@
     <string name="audio_db_album_name">FM recordings</string>
     <!-- all recordings will show up in the media database in a playlist with this name -->
     <string name="audio_db_playlist_name">FM recordings</string>
-    <string name="test_prompt">Choose a test</string>
-    <string name="test_run">Run Test</string>
-    <string name="set_rmmsi_delta">Configure RMSSI Delta</string>
-    <string name="set_sigth">Configure Signal Th</string>
-    <string name="type_rd"></string>
     <string name="srch_params">Configure RMSSI Delta</string>
     <string name="srch_params_1">Configure Signal Th </string>
-    <string name="enter_rssi">Enter RMSSI Delta</string>
-    <string name="enter_sigth">Enter Signal Th</string>
-    <string name="enter_SinrSmplsCnt">Enter SINR Samples Count</string>
-    <string name="set_SinrSmplsCnt">Configure SINR Samples</string>
-    <string name="enter_SinrTh">Enter SINR Threshold</string>
-    <string name="set_SinrTh">Configure SINR Threshold</string>
-    <string name="enter_IntfLowTh">Enter Intf Det Low Threshold</string>
-    <string name="set_IntfLowTh">Config Intf Det Low Threshold</string>
-    <string name="enter_IntfHighTh">Enter Intf Det High Threshold</string>
-    <string name="set_IntfHighTh">Config Intf Det High Threshold</string>
 
     <string name="station_name">Station:</string>
     <string name="station_exists">This frequency already exists!</string>
@@ -231,46 +208,13 @@
     <string name="station_list_delete_station_prompt">Are you sure to delete <xliff:g id="name">%s</xliff:g> .</string>
     <string name="station_name_empty">Station name is empty, please input again.</string>
     <string name="station_name_exist">There is already a station named \"<xliff:g id="name">%s</xliff:g>\". Please input a different name.</string>
-    <string name="enter_SinrFirstStage">Enter Sinr First Stage</string>
-    <string name="set_SinrFirstStage">Config Sinr First Stage</string>
-    <string name="enter_RmssiFirstStage">Enter Rmssi First Stage</string>
-    <string name="set_RmssiFirstStage">Config Rmssi First Stage</string>
-    <string name="enter_CF0Th12">Enter CF0 Threshold</string>
-    <string name="set_CF0Th12">Config CF0 Threshold</string>
-    <string name="search_algo_mpx">MPX_DCC Algo</string>
-    <string name="search_algo_sinrint">SINR_INTF Algo</string>
-    <string name="enter_AfJmpRmssiTh">Enter Af Jump Rmssi Threshold</string>
-    <string name="set_AfJmpRmssiTh">Config Af Jump Rmssi Threshold</string>
-    <string name="enter_GdChRmssiTh">Enter Good Channel Rmssi Threshold</string>
-    <string name="set_GdChRmssiTh">Config Good Channel Rmssi Threshold</string>
-    <string name="enter_AfJmpRmssiSmplsCnt">Enter Af Jump Rmssi Samples count</string>
-    <string name="set_AfJmpRmssiSmplsCnt">Config Af Jump Rmssi Samples count</string>
     <string name="rt_plus_tags">Tags</string>
-    <string name="enter_RxRePeatCount">Enter RxRePeat count</string>
-    <string name="set_RxRePeatCount">Config RxRePeat count</string>
-    <string name="enter_BlendSinrHi">Enter Sig Blend SinrHi value</string>
-    <string name="set_BlendSinrHi">Configure Sig Blend SinrHi value</string>
-    <string name="enter_BlendRmssiHi">Enter Sig Blend RmssiHi value</string>
-    <string name="set_BlendRmssiHi">Configure Sig Blend RmssiHi value</string>
-    <string name="enter_RssiTh">Enter RSSI Threshold</string>
-    <string name="set_RssiTh">Config RSSI Threshold</string>
-    <string name="enter_AfJumpRssiTh">Enter AF jump RSSI Threshold</string>
-    <string name="set_AfJumpRssiTh">Config AF jump RSSI Threshold</string>
-    <string name="enter_RdsFifoCnt">Enter RDS FIFO count</string>
-    <string name="set_RdsFifoCnt">Config RDS FIFO count</string>
 
     <string name="usr_def_band_min">Lower Freq Limit(In Mhz)</string>
     <string name="usr_def_band_max">Higher Freq Limit(In Mhz)</string>
     <string name="sel_chanl_spacing">Select Channel Spacing</string>
     <string name="chanl_spacing">Channel Spacing</string>
 
-    <string name="band_method_prompt">Select Method</string>
-    <string name="enter_start_delay_time">Start Delay Time</string>
-    <string name="enter_dwell_time">Dwell Time</string>
-    <string name="band_sweep_setting">Sweep Setting</string>
-    <string name="band_sweep_setting_set">Set</string>
-    <string name="band_sweep_setting_cancel">Cancel</string>
-    <string name="band_sweep_choose">Choose Band Sweep Method</string>
     <string name="set">Set</string>
     <string name="cancel">Cancel</string>
     <string name="user_defind_band_msg">Enter Freq from range 76.0 - 108.0, with min 1 channel spacing and 100KHz space between max, min freq</string>
