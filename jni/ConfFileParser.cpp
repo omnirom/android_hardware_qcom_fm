@@ -39,7 +39,7 @@
 static char parse_line
 (
   group_table *key_file,
-  const char *line,
+  char *line,
   char **cur_grp
 );
 
@@ -69,7 +69,7 @@ static void free_key_list
 static char line_is_key_value_pair
 (
   group_table *key_file,
-  const char *str,
+  char *str,
   const char *cur_grp
 );
 
@@ -525,11 +525,11 @@ static char parse_load_frm_fhandler
 static char parse_line
 (
   group_table *key_file,
-  const char *line,
+  char *line,
   char **cur_grp
 )
 {
-  const char *line_begin;
+  char *line_begin;
   char *grp_name;
   unsigned int len;
 
@@ -785,7 +785,7 @@ static char key_exist
 static char line_is_key_value_pair
 (
   group_table *key_file,
-  const char *str,
+  char *str,
   const char *cur_grp
 )
 {
