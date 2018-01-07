@@ -11,7 +11,9 @@ FmPerformanceParams.cpp
 
 LOCAL_SHARED_LIBRARIES := \
         libnativehelper \
-        libcutils
+        libcutils \
+        libandroid_runtime \
+        liblog
 
 LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 LOCAL_ADDITIONAL_DEPENDENCIES := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
