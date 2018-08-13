@@ -31,6 +31,7 @@ LOCAL_PACKAGE_NAME := FM2
 LOCAL_CERTIFICATE := platform
 LOCAL_JNI_SHARED_LIBRARIES := libqcomfm_jni
 LOCAL_JAVA_LIBRARIES := qcom.fmradio
+LOCAL_SDK_VERSION := current
 
 include $(BUILD_PACKAGE)
 
